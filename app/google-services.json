@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467047870132",
+    "project_id": "fir-msg1-fe5ab",
+    "storage_bucket": "fir-msg1-fe5ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467047870132:android:25cca15d3ae6430b0bf1e1",
+        "android_client_info": {
+          "package_name": "com.amitsalunke.clevertapsdkdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467047870132-eg6cb5olg192bvnjce2aogfkq4gvp8e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcOl7g9ENN-2RC3QUTATfeHMp4Vh4qe2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467047870132-eg6cb5olg192bvnjce2aogfkq4gvp8e3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

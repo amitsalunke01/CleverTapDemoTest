@@ -25,27 +25,21 @@
         </activity>
 
         <meta-data
-            android:name="RK4-R6K-565Z"
-            android:value="Your CleverTap Account ID" />
+            android:name="CLEVERTAP_ACCOUNT_ID"
+            android:value="RK4-R6K-565Z" />
         <meta-data
-            android:name="362-432"
-            android:value="Your CleverTap Account Token" />
+            android:name="CLEVERTAP_TOKEN"
+            android:value="362-432" />
         <!-- IMPORTANT: To force use Google AD ID to uniquely identify  users, use the following meta tag. GDPR mandates that if you are using this tag, there is prominent disclousure to your end customer in their application. Read more about GDPR here - https://clevertap.com/blog/in-preparation-of-gdpr-compliance/ -->
-        <meta-data
-            android:name="CLEVERTAP_USE_GOOGLE_AD_ID"
-            android:value="1" />
-
-        <service
-            android:name="com.clevertap.android.sdk.FcmTokenListenerService">
+        <service android:name="com.clevertap.android.sdk.FcmTokenListenerService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 
-        <service
-            android:name="com.clevertap.android.sdk.FcmMessageListenerService">
+        <service android:name="com.clevertap.android.sdk.FcmMessageListenerService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 

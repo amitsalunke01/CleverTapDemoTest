@@ -15,6 +15,7 @@ class CleverTapSDKApplication : Application() {
         cleverTapDefaultInstance = CleverTapAPI.getDefaultInstance(applicationContext)
 
         // not getting reference for createNotificationChannel so not able to check for notification
+        //createNotificationChannel
         //cleverTapDefaultInstance.createNotificationChannel(applicationContext,"Channel1","Channel Name","Demo Description", NotificationManager.IMPORTANCE_MAX,true)
 
     }
